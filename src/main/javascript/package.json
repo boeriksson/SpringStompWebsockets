@@ -1,0 +1,46 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --colors"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/plugin-transform-object-assign": "^7.2.0",
+    "@babel/plugin-transform-regenerator": "^7.4.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-register": "^6.26.0",
+    "memoize-one": "^5.1.1",
+    "path": "^0.12.7",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "@kindred-brand/unibet": "^1.15.1",
+    "@payp/paynplay": "^1.0.23",
+    "@payp/ui-components": "^1.0.21",
+    "@payp/utils": "^1.0.15",
+    "color": "^3.1.0",
+    "core-js": "^2.6.9",
+    "prop-types": "^15.6.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "sockjs": "^0.3.19",
+    "stomp": "^0.1.1",
+    "styled-components": "^3.2.5",
+    "whatwg-fetch": "^3.0.0"
+  }
+}

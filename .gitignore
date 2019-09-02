@@ -1,0 +1,21 @@
+*.orig
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules
+
+# Optional npm cache directory
+.npm
+
+dist
+lib
+
+server/static/start.js
